@@ -25,6 +25,16 @@ public class GameManager {
         mapLoader = new MapLoader(this);
     }
 
+    public void setGameState(GameState gameState) {
+        this.gameState = gameState;
+        log.info("Stato della partita impostato su: " + gameState);
+    }
+
+    public void loadNewGame() {
+        setGameState(GameState.GENERATING);
+        mapLoader.loadWorlds();
+    }
+
     public Colors getColors() {
         return colors;
     }
@@ -43,5 +53,9 @@ public class GameManager {
 
     public Main getPlugin() {
         return plugin;
+    }
+
+    public MapLoader getMapLoader() {
+        return mapLoader;
     }
 }

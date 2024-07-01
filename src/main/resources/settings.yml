@@ -1,5 +1,25 @@
 settings:
-  remove-oceans: true
+  game-managing:
+    remove-oceans: true
+    world-name: "game_world"
+    world-size: 1000
+    chunk-loading-speed: 1
+  lobby-creation:
+    rel-position:
+      x: 0
+      y: 170
+      z: 0
+    rel-spawn:
+      x: 0.5
+      y: 171.0
+      z: 0.5
+      yaw: 0.00
+      pitch: 0.00
+    border-material: GLASS
+    size:
+      width: 10
+      length: 10
+      height: 6
 
 messages:
   generating: "&8[&c!&8] &7La mappa è ancora in corso di generazione, non puoi entrare."
