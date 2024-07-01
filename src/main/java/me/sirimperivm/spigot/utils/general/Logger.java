@@ -1,4 +1,4 @@
-package me.sirimperivm.spigot.utils;
+package me.sirimperivm.spigot.utils.general;
 
 import me.sirimperivm.spigot.Main;
 import me.sirimperivm.utilities.colors.Colors;

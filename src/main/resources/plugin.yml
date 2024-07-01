@@ -1,4 +1,4 @@
 name: RandomWorldGenerator
-version: '${project.version}'
+version: '1.0'
 main: me.sirimperivm.spigot.Main
 api-version: '1.20'

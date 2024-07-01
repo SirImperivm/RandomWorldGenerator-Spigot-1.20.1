@@ -1,0 +1,5 @@
+settings:
+  remove-oceans: true
+
+messages:
+  generating: "&8[&c!&8] &7La mappa è ancora in corso di generazione, non puoi entrare."
